@@ -1,0 +1,38 @@
+{
+  "name": "projeto-av2",
+  "version": "1.0.0",
+  "description": "Projeto de Interruptor da Av2 de Sistemas Embarcados",
+  "keywords": [
+    "Av2", "Interruptor", "Sistemas Embarcados"],
+  "author": {
+    "name": "G. J. Oliveira",
+    "email": "gjoliveira.email@gmail.com",
+    "url": "https://github.com/gjoliveira"
+  },
+  "contributors": [{"name":"Daniel"},{"name": "Luiz"}, {"name": "Vinícius"}],
+  "private": true,
+  "license": "MIT",
+  "source": "index.html",
+  "main": "source/index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "tailwindcss": "npx tailwindcss -i ./source/index.css -o ./source/styles/tailwind.css --watch",
+    "prettier-watch": "onchange \"**/*\" --exclude-path .eslintignore -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-unicorn": "latest",
+    "onchange": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "snowpack": "latest",
+    "tailwindcss": "latest"
+  }
+}
