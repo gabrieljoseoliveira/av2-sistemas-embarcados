@@ -3,13 +3,26 @@
   "version": "1.0.0",
   "description": "Projeto de Interruptor da Av2 de Sistemas Embarcados",
   "keywords": [
-    "Av2", "Interruptor", "Sistemas Embarcados"],
+    "Av2",
+    "Interruptor",
+    "Sistemas Embarcados"
+  ],
   "author": {
     "name": "G. J. Oliveira",
     "email": "gjoliveira.email@gmail.com",
     "url": "https://github.com/gjoliveira"
   },
-  "contributors": [{"name":"Daniel"},{"name": "Luiz"}, {"name": "Vinícius"}],
+  "contributors": [
+    {
+      "name": "Daniel"
+    },
+    {
+      "name": "Luiz"
+    },
+    {
+      "name": "Vinícius"
+    }
+  ],
   "private": true,
   "license": "MIT",
   "source": "index.html",
